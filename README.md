@@ -34,4 +34,4 @@
 11-15 | <b>Asset Tag.</b>  The 5 digit code that reflects the official <Entity> asset tag affixed to the device.  This provides the asset a unique identity should the Entity or Primary Site code require modification.  This code is unique and cannot be duplicated between devices.  If the entity does not use entity specific Asset Tags, then use the last 5 characters of the Serial Number.  If necessary to ensure uniqueness of active devices, replace the last character with an alphabetical character.</br>
 
 <p align="center">Example of client system naming breakdown.</p>
-<p align="center">(https://github.com/defendthehoneypot/Client-GPOs/blob/master/screenshots/manageauditlog.png)</p>
+<p align="center">![alt text](https://github.com/defendthehoneypot/Client-GPOs/blob/master/screenshots/manageauditlog.png "Picture")</p>
