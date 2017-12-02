@@ -26,9 +26,9 @@
 
 ### <p align="center">Naming Standards for Workstations and Laptops</p>
 | Position             | Description                                                                                                 |
-| -------------------- | ------------------------------------------------------------------------------------------------------------|
+| -------------------- | ----------------------------------------------------------------------------------------------------------- |
 | 1-3                  | Entity.  For objects under control of the <Entity Name> Domain, the example code for this document is “XYZ”.|  
-                         Note: If entity abbreviation is greater than 3 characters, then it must be reduced to fit or the entity must
-                         eliminate the site and use these allocated spaces.                                                          
- 
+|                      | Note: If entity abbreviation is greater than 3 characters, then it must be reduced to fit or the entity must|
+|                      | eliminate the site and use these allocated spaces.                                                          |
+| -------------------- | ----------------------------------------------------------------------------------------------------------- |
 
