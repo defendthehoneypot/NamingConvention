@@ -28,7 +28,6 @@
 | Position             | Description                                                                                                 |
 | -------------------- | ----------------------------------------------------------------------------------------------------------- |
 1-3 | Entity.  For objects under control of the <Entity Name> Domain, the example code for this document is “XYZ”. </br>
-</br>
 Note: If entity abbreviation is greater than 3 characters, then it must be reduced to fit or the entity must eliminate the site and use these allocated spaces. </br>
 4-5 | Functions Code.  This code described the role of the device.  The authorized options within this category are: </br>
 MD	Mobile Device</br>
