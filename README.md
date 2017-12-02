@@ -27,12 +27,11 @@
 ### <p align="center">Naming Standards for Workstations and Laptops</p>
 | Position             | Description                                                                                                 |
 | -------------------- | ----------------------------------------------------------------------------------------------------------- |
-1-3 | Entity.  For objects under control of the <Entity Name> Domain, the example code for this document is “XYZ”. </br>
-Note: If entity abbreviation is greater than 3 characters, then it must be reduced to fit or the entity must eliminate the site and use these allocated spaces. </br>
-4-5 | Functions Code.  This code described the role of the device.  The authorized options within this category are: </br>
-MD	Mobile Device</br>
-NB	Notebook / Laptop computer</br>
-NX	Notebook / Laptop non-Domain Member (requires ISO Approval memo)</br>
-TC	Thin Client Computing Device</br>
-WK	Workstation / Desktop computer</br>
+1-3 | Entity.  For objects under control of the <Entity Name> Domain, the example code for this document is “XYZ”.  Note: If entity abbreviation is greater than 3 characters, then it must be reduced to fit or the entity must eliminate the site and use these allocated spaces. </br>
+4-5 | Functions Code.  This code described the role of the device.  The authorized options within this category are:
+MD	Mobile Device
+NB	Notebook / Laptop computer
+NX	Notebook / Laptop non-Domain Member (requires ISO Approval memo)
+TC	Thin Client Computing Device
+WK	Workstation / Desktop computer
 WX	Workstation non-Domain Member (requires ISO Approval memo)</br>
