@@ -1,6 +1,6 @@
-# Title: Naming Standards for Active Directory.
+## Title: Naming Standards for Active Directory.
 
-# Purpose:  This document sets the standards, policies, and procedures for the naming conventions for Active Directory objects.
+## Purpose:  This document is designed to provide an example for naming Active Directory objects.
 
 #### Section 1 - Naming Standards for Workstations and Laptops:
 #### Section 2 – Naming Standards for Servers:
