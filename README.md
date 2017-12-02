@@ -35,4 +35,4 @@
 
 <p align="center">Example of client system naming breakdown.</p>
 
-![alt text](https://github.com/defendthehoneypot/NamingConvention/blob/master/images/naming-convention-computer.png "naming-convention-computer")
+<p align="center">![alt text](https://github.com/defendthehoneypot/NamingConvention/blob/master/images/naming-convention-computer.png "naming-convention-computer")</p>
