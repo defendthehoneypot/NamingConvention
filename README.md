@@ -33,10 +33,6 @@
 8-10 | <b>Site Code.</b>  The 3 digit code identifies the city.  [Here is a good reference for CA city name codes](http://www.dot.ca.gov/hq/structur/strmaint/brlog/table_c.htm)  Each state should have a state government website with similar codes.  This site has some cities with 4 character abbreviations, but in order to maintain the overall consistency with other areas of this document, use only 3 characters.</br>
 11-15 | <b>Asset Tag.</b>  The 5 digit code that reflects the official <Entity> asset tag affixed to the device.  This provides the asset a unique identity should the Entity or Primary Site code require modification.  This code is unique and cannot be duplicated between devices.  If the entity does not use entity specific Asset Tags, then use the last 5 characters of the Serial Number.  If necessary to ensure uniqueness of active devices, replace the last character with an alphabetical character.</br>
 
-<div align=“center”> <div markdown=“1”>
-
-![alt text](https://github.com/defendthehoneypot/NamingConvention/blob/master/images/naming-convention-computer.png "naming-convention-computer")
-
-</div></div>
+<div align=“center”> <div markdown=“1”>![alt text](https://github.com/defendthehoneypot/NamingConvention/blob/master/images/naming-convention-computer.png "naming-convention-computer")</div></div>
 
 
