@@ -184,3 +184,5 @@ Example of Security Group Computers
 
 ![alt text](https://github.com/defendthehoneypot/NamingConvention/blob/master/images/naming-convention-securitygroupscomputer.png "naming-convention-securitygroupscomputer")
 
+## Section 10 – ACL, USR and CMP group examples of implementation:
+
