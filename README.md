@@ -130,6 +130,9 @@ Example Service Account Name
 1-6 | <b>Security Group Type.</b>  For objects under control of the < Entity Code Security Group Type >, the example code for this document is “XYZACL”.
 7 | This position will use a “_” to delaminate the different positions.
 8-X | <b>Object Identifier.</b>  This will generally be a friendly name to identify what the object is used for.  Try to make the Object Identifier as descriptive as possible and unique for each object you might apply permissions to.</br>AD - Active Directory Delegation of OU</br>GPO - Group Policy Object e.g. Security Filtering of GPO</br>File - Network File Server Shared Folder</br>Workstation - Local Groups of Workstation e.g. Built-in Administrators Group (Workstation or Laptop)</br>Network - Network device access. e.g. router and switch</br>Server - Local Groups of Server e.g. Built-in Administrators Group</br>SPSite - Sharepoint Site</br>SPList - Sharepoint List</br>SPLibrary - Sharepoint Document Repository</br>VMWare - VMWare permission delegation
+X-X | This position will use a “_” to delaminate the different positions
+X-X | <b>Object Name.</b>  This will be the friendly name of the object.  e.g. OU Name, GPO Name, Folder Name.  This field is not required if the object is being applied to all objects (for example: XYZACL_Workstation_LocalAdmins ).  Additionally, an Object Name would be necessary if the group is being applied to only one system, (for example: XYZACL_Workstation_XYZNBSAC12345_LocalAdmins ).
+X-X | Permission.  The permission will identify exact permission that the ACL is used (e.g. FullControl, Modify, LocalAdmins ).  Try to make the permission as descriptive as possible.
 
 Example Security Group Name (ACL)
 
