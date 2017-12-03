@@ -134,6 +134,17 @@ X-X | This position will use a “_” to delaminate the different positions
 X-X | <b>Object Name.</b>  This will be the friendly name of the object.  e.g. OU Name, GPO Name, Folder Name.  This field is not required if the object is being applied to all objects (for example: XYZACL_Workstation_LocalAdmins ).  Additionally, an Object Name would be necessary if the group is being applied to only one system, (for example: XYZACL_Workstation_XYZNBSAC12345_LocalAdmins ).
 X-X | Permission.  The permission will identify exact permission that the ACL is used (e.g. FullControl, Modify, LocalAdmins ).  Try to make the permission as descriptive as possible.
 
-Example Security Group Name (ACL)
+Example Security group that has delegated control of the Laptops OU
 
-![alt text](https://github.com/defendthehoneypot/NamingConvention/blob/master/images/naming-convention-securitygroupacl.png "naming-convention-securitygroupacl")
+![alt text](https://github.com/defendthehoneypot/NamingConvention/blob/master/images/naming-convention-securitygroupsacl-laptops.png "naming-convention-securitygroupsacl-laptops")
+
+Example Security group that is added to the built-in Administrators Group of all client systems.
+
+![alt text](https://github.com/defendthehoneypot/NamingConvention/blob/master/images/naming-convention-securitygroupsacl-workstations.png "naming-convention-securitygroupsacl-workstations")
+
+Example Security group that is added to the built-in Administrators Group of one client system.
+
+![alt text](https://github.com/defendthehoneypot/NamingConvention/blob/master/images/naming-convention-securitygroupsacl-oneclient.png "naming-convention-securitygroupsacl-oneclient")
+
+## Section 8 – Naming Standards for Security Groups that contain users:
+
