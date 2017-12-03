@@ -148,3 +148,22 @@ Example Security group that is added to the built-in Administrators Group of one
 
 ## Section 8 – Naming Standards for Security Groups that contain users:
 
+1. Objects in this classification include any Security Groups that are applied directly to an object, or used by any device referencing an LDAP group for permissions.  These should always be Domain Local Groups.
+2. Objects in this classification will be named using the following breakdown.
+
+| Position             | Description                                                                                                 |
+| -------------------- | ----------------------------------------------------------------------------------------------------------- |
+1-6 | <b>Security Group Type.</b>  For objects under control of the < Entity > domain.  The example code for this document is “XYZUSR”.
+7 | This position will use a “_” to delaminate the different positions.
+8-13 | Department/Team.  This is the six digit code for the department and team.  There is no set standard, each Entity will have to derive their own set of abbreviations.  The first three digits should indicate the Department and the last three digits would be the sub team with-in the department, if it exists.  Below are some examples.</br>TECSVC - Technical Services</br>HRSBEN - Human Resources Benefits Section</br>EXECUT - Executive Suite. E.g. CEO, CIO</br>BRDDIR - Board of Directors
+14 | This position will use a “_” to delaminate the different positions.
+15-X | <b>Job Title.</b>  This will be the friendly job title of the employee.  It should be based off the Human Resources position title document.
+
+Example of Security group User Job Title
+
+![alt text](https://github.com/defendthehoneypot/NamingConvention/blob/master/images/naming-convention-securitygroupsuser-jobtitle.png "naming-convention-securitygroupsuser-jobtitle")
+
+Example of Security Group User for department “all” groups.  In order to facilitate combining all the users in one department there should be a group that all the job title groups can be combined into.
+
+![alt text](https://github.com/defendthehoneypot/NamingConvention/blob/master/images/naming-convention-securitygroupsuser-departmentall.png "naming-convention-securitygroupsuser-departmentall")
+
