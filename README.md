@@ -73,6 +73,7 @@ Example Virtual Server Name
 
 1. Objects in this classification include switches, firewalls and routers.
 2. Objects in this classification will be named using the following breakdown.
+
 | Position             | Description                                                                                                 |
 | -------------------- | ----------------------------------------------------------------------------------------------------------- |
 1-3 | <b>Entity.</b>  For objects under control of the <Entity Name> Domain, the example code for this document is “XYZ”
