@@ -103,3 +103,20 @@ Example Network Peripherals Name
 
 ![alt text](https://github.com/defendthehoneypot/NamingConvention/blob/master/images/naming-convention-networkperipherals.png "naming-convention-peripherals")
 
+## Section 6 – Naming Standards for Service Accounts:
+
+1. Objects in this classification include any accounts that are used to run services or processes on server systems.  The overall length of service accounts should be no longer than 15 characters to comply with the NetBIOS limitation.
+2. Objects in this classification will be named using the following breakdown.
+
+| Position             | Description                                                                                                 |
+| -------------------- | ----------------------------------------------------------------------------------------------------------- |
+1-3 | <b>Entity Code.</b>  For objects under control of the <Entity Name> Domain, the example code for this document is “XYZ”.
+4 | This position will use a “.” to delaminate the different positions.
+5-11 | <b>Service Name.</b>  This will generally be a friendly name to identify what the service account is used for.
+12 | This position will use a “.” to delaminate the different positions.
+13-15 | <b>Account Type.</b>  The 3 digit code will identify the Active Directory accounts use.  The authorized options in this category are:</br>SVC - Service Account
+</br>TSK - Scheduled Task
+
+Example Service Account Name
+
+![alt text](https://github.com/defendthehoneypot/NamingConvention/blob/master/images/naming-convention-serviceaccount.png "naming-convention-serviceaccount")
