@@ -167,3 +167,20 @@ Example of Security Group User for department “all” groups.  In order to fac
 
 ![alt text](https://github.com/defendthehoneypot/NamingConvention/blob/master/images/naming-convention-securitygroupsuser-departmentall.png "naming-convention-securitygroupsuser-departmentall")
 
+## Section 9 – Naming Standards for Security Groups that contain computers:
+
+1. Objects in this classification include any Security Groups that are applied directly to an object, or used by any device referencing an LDAP group for permissions.  These should always be Domain Local Groups.
+2. Objects in this classification will be named using the following breakdown.
+
+| Position             | Description                                                                                                 |
+| -------------------- | ----------------------------------------------------------------------------------------------------------- |
+1-6 | <b>Security Group Type.</b>  For objects under control of the < Entity > domain. The example code for this document is “XYZCMP”.
+7 | This position will use a “_” to delaminate the different positions.
+8-13 | Department/Team.  This is the six digit code for the department and team.  There is no set standard, each Entity will have to derive their own set of abbreviations.  The first three digits should indicate the Department and the last three digits would be the sub team with-in the department, if it exists.  Below are some examples.</br>TECSVC - Technical Services</br>HUMRES - Human Resources</br>EXECUT - Executive Suite. e.g. CEO, CIO</br>BRDDIR - Board of Directors
+14 | This position will use a “_” to delaminate the different positions.
+15-X | <b>Group Designation.</b>  This will be the friendly group name.  e.g. “All” or “Test”.
+
+Example of Security Group Computers
+
+![alt text](https://github.com/defendthehoneypot/NamingConvention/blob/master/images/naming-convention-securitygroupscomputer.png "naming-convention-securitygroupscomputer")
+
