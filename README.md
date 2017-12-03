@@ -8,7 +8,7 @@
 ##### Section 4 – Naming Standards for Network Infrastructure:
 ##### Section 5 – Naming Standards for Network Peripherals:
 ##### Section 6 – Naming Standards for Service Accounts:
-##### Section 7 – Naming Standards for Security Groups used as Access Control Lists (ACL)
+##### Section 7 – Naming Standards for Security Groups used as Access Control Lists (ACL):
 ##### Section 8 – Naming Standards for Security Groups that contain users:
 ##### Section 9 – Naming Standards for Security Groups that contain computers:
 ##### Section 10 – ACL, USR and CMP group examples of implementation:
@@ -119,3 +119,18 @@ Example Network Peripherals Name
 Example Service Account Name
 
 ![alt text](https://github.com/defendthehoneypot/NamingConvention/blob/master/images/naming-convention-serviceaccount.png "naming-convention-serviceaccount")
+
+## Section 7 – Naming Standards for Security Groups used as Access Control Lists (ACL):
+
+1. Objects in this classification include any Security Groups that are applied directly to an object, or used by any device referencing an LDAP group for permissions.  These should always be Domain Local Groups.
+2. Objects in this classification will be named using the following breakdown.
+
+| Position             | Description                                                                                                 |
+| -------------------- | ----------------------------------------------------------------------------------------------------------- |
+1-6 | <b>Security Group Type.</b>  For objects under control of the < Entity Code Security Group Type >, the example code for this document is “XYZACL”.
+7 | This position will use a “_” to delaminate the different positions.
+8-X | <b>Object Identifier.</b>  This will generally be a friendly name to identify what the object is used for.  Try to make the Object Identifier as descriptive as possible and unique for each object you might apply permissions to.</br>AD - Active Directory Delegation of OU</br>GPO - Group Policy Object e.g. Security Filtering of GPO</br>File - Network File Server Shared Folder</br>Workstation - Local Groups of Workstation e.g. Built-in Administrators Group (Workstation or Laptop)</br>Network - Network device access. e.g. router and switch</br>Server - Local Groups of Server e.g. Built-in Administrators Group</br>SPSite - Sharepoint Site</br>SPList - Sharepoint List</br>SPLibrary - Sharepoint Document Repository</br>VMWare - VMWare permission delegation
+
+Example Security Group Name (ACL)
+
+![alt text](https://github.com/defendthehoneypot/NamingConvention/blob/master/images/naming-convention-securitygroupacl.png "naming-convention-securitygroupacl")
