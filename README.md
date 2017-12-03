@@ -85,3 +85,21 @@ Example Virtual Server Name
 Example Network Infrastructure Name
 
 ![alt text](https://github.com/defendthehoneypot/NamingConvention/blob/master/images/naming-convention-networkinfrastructure.png "naming-convention-networkinfrastructure")
+
+## Section 6 – Naming Standards for Network Peripherals:
+
+1. Objects in this classification include network devices, such as printers.
+2. Objects in this classification will be named using the following breakdown.
+
+| Position             | Description                                                                                                 |
+| -------------------- | ----------------------------------------------------------------------------------------------------------- |
+1-3 | <b>Entity.</b>  For objects under control of the <Entity Name> Domain, the example code for this document is “XYZ”
+4-5 | <b>Functions Code.</b>  The authorized options in this category are:</br>DM - Monitoring Device for HVAC  / Environmental status</br>DS - Stand Alone Digital Senders</br>PL - Plotter</br>PR - Printers or Multi-function Print Devices (MFP)</br>SC - Security Device, such as door badge system
+6-7 | <b>Department</b> – The 3 digit code that identifies the activity or agency assigned the device for usage.  If the device is a shared device, then the primary agency responsible for its proper usage will be identified.
+8-10 | <b>Site Code.</b>  The 3 digit code identifies the city.  Here is a good reference for CA city name codes: http://www.dot.ca.gov/hq/structur/strmaint/brlog/table_c.htm  This site has some cities with 4 character abbreviations, but in order to maintain the overall consistency with other areas of this document, use only 3 characters.
+11-15 | <b>Asset Tag.</b>  The 5 digit code that reflects the official <Entity> asset tag affixed to the device.  This provides the asset a unique identity should the Entity or Primary Site code require modification.  This code is unique and cannot be duplicated between devices.  If the entity does not use entity specific Asset Tags, then use the last 5 characters of the Serial Number.  If necessary to ensure uniqueness of active devices, replace the last character with an alphabetical character.
+
+Example Network Peripherals Name
+
+![alt text](https://github.com/defendthehoneypot/NamingConvention/blob/master/images/naming-convention-networkperipherals.png "naming-convention-peripherals")
+
