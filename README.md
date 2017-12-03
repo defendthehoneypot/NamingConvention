@@ -114,8 +114,7 @@ Example Network Peripherals Name
 4 | This position will use a “.” to delaminate the different positions.
 5-11 | <b>Service Name.</b>  This will generally be a friendly name to identify what the service account is used for.
 12 | This position will use a “.” to delaminate the different positions.
-13-15 | <b>Account Type.</b>  The 3 digit code will identify the Active Directory accounts use.  The authorized options in this category are:</br>SVC - Service Account
-</br>TSK - Scheduled Task
+13-15 | <b>Account Type.</b>  The 3 digit code will identify the Active Directory accounts use.  The authorized options in this category are:</br>SVC - Service Account</br>TSK - Scheduled Task
 
 Example Service Account Name
 
