@@ -199,3 +199,10 @@ Example of Role Based security groups used on a file server
 Example of Role Based security group used for local administrative access of clients
 
 ![alt text](https://github.com/defendthehoneypot/NamingConvention/blob/master/images/naming-convention-rolebasedgroups-localadmin.png "naming-convention-rolebasedgroups-localadmin")
+
+3. Group Policy Permissions – This would allow the filtering of a test GPO that is applied to only a specific group of computers.  The same could be done for user accounts using USR groups.
+
+
+
+## Section 11 – Administrator account naming convention:
+
