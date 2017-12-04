@@ -186,8 +186,16 @@ Example of Security Group Computers
 
 ## Section 10 – ACL, USR and CMP group examples of implementation:
 
+This section is designed to provide an example for how to implement role based access.  It can be used for both user and administrator delegation.  Depending on the size of the organization, it could be very manpower intensive to implement, but provides a lot of value in the end.  For the job title 
+
 1. File Share permissions – The XYZACL_ group is applied as NTFS permissions on a shared folder for a department, with the XYZUSR_ groups nested inside.
 
 Example of Role Based security groups used on a file server
 
 ![alt text](https://github.com/defendthehoneypot/NamingConvention/blob/master/images/naming-convention-rolebasedgroups-fileshare.png "naming-convention-rolebasedgroups-fileshare")
+
+2. Workstation Built-in Administrators group – The XYZACL_Workstation_LocalAdmins is added to the built-in Administrators group of every client using Group Policy Preferences (GPP), with the XYZUSR_ groupname, for the Help Desk Administrator accounts, nested inside.
+
+Example of Role Based security group used for local administrative access of clients
+
+![alt text](https://github.com/defendthehoneypot/NamingConvention/blob/master/images/naming-convention-rolebasedgroups-localadmin.png "naming-convention-rolebasedgroups-localadmin")
