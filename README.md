@@ -186,3 +186,8 @@ Example of Security Group Computers
 
 ## Section 10 – ACL, USR and CMP group examples of implementation:
 
+1. File Share permissions – The XYZACL_ group is applied as NTFS permissions on a shared folder for a department, with the XYZUSR_ groups nested inside.
+
+Example of Role Based security groups used on a file server
+
+![alt text](https://github.com/defendthehoneypot/NamingConvention/blob/master/images/naming-convention-rolebasedgroups-fileshare.png "naming-convention-rolebasedgroups-fileshare")
