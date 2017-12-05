@@ -202,7 +202,36 @@ Example of Role Based security group used for local administrative access of cli
 
 3. Group Policy Permissions – This would allow the filtering of a test GPO that is applied to only a specific group of computers.  The same could be done for user accounts using USR groups.
 
-
-
 ## Section 11 – Administrator account naming convention:
 
+1. Objects in this classification include any domain accounts that are used in an administrative capacity.
+2. Objects in this classification will be named using the following breakdown.
+
+| Position             | Description                                                                                                 |
+| -------------------- | ----------------------------------------------------------------------------------------------------------- |
+1 | <b>First Initial.</b>  This position should be the first name initial.
+2-X | <b>Last Name.</b>  These positions should be the last name.
+X | This position will use a “.” to delaminate the different positions
+X-X | <b>Admin Function.</b>  These last two characters indicate what administrative function the account is used for.</br>wk - Workstation Administrator</br>sv - Server Administrator</br>dc - Domain Administrator</br>nd - Network Administrator e.g. router/switch account</br>admin - Security appliance Administrator
+
+Example Client Administrator account name
+
+![alt text](https://github.com/defendthehoneypot/NamingConvention/blob/master/images/naming-convention-administrator-client.png "naming-convention-administrator-client")
+
+## Section 12 – User account naming convention:
+
+1. Objects in this classification include any standard user accounts.
+2. Objects in this classification will be named using the following breakdown.
+
+| Position             | Description                                                                                                 |
+| -------------------- | ----------------------------------------------------------------------------------------------------------- |
+1 | <b>First Initial.</b>  This position should be the first name initial.
+2-X | <b>Last Name.</b>  These positions should be the last name.
+X | This position will use a “.” To delaminate the different positions.
+X-X | <b>Account Classification.</b>  These three characters will be used to indicate the user type for purposes of any special restrictions that might need to be applied.</br>emp - Employee</br>ctr - Contractor</br>ven - Vendor</br>vol - Volunteer</br>int - Intern
+X-X | <b>Unique Identifier.</b>  This is an optional field and is only used if two or more people have the same first initial and last name.</br>
+01-99 - Second and subsequent accounts
+
+3. Examples of standard user account naming breakdown.  Unique first initial and last name.
+
+![alt text](https://github.com/defendthehoneypot/NamingConvention/blob/master/images/naming-convention-useraccount-employee.png "naming-convention-useraccount-employee")
