@@ -1,6 +1,6 @@
 ## Title: Naming Standards for Active Directory.
 
-## Purpose:  This document is designed to provide an example for naming Active Directory objects.
+## Purpose:  This document is designed to provide an example for naming Active Directory objects.  This document is designed to facilitate multiple organizations combined into one Active Directory.  The <agency> code is what allows this
 
 ##### Section 1 - Naming Standards for Workstations and Laptops:
 ##### Section 2 – Naming Standards for Servers:
@@ -275,15 +275,15 @@ Example of standard user email account naming breakdown
 | Position             | Description                                                                                                 |
 | -------------------- | ----------------------------------------------------------------------------------------------------------- |
 1-3 | <b>Agency Code.</b>  For the purposes of this document “XYZ” will be used.
-4 | In the Display name field this position will use a “ “ to delaminate the different positions.</br>
+4 | In the Display name field this position will use a “ “ to delaminate the different positions.
 In the Alias name field this position will use a “.” to delaminate the different positions.
-5-X | Object Type.  These positions will indicate whether the object is a Distribution List or Organizational Mailbox.</br>
-Distribution List.  This position will use “list” to indicate the object is a distribution list.</br>
+5-X | Object Type.  These positions will indicate whether the object is a Distribution List or Organizational Mailbox.
+Distribution List.  This position will use “list” to indicate the object is a distribution list.
 Organizational Mailbox.  In the Display name field this position will use “Mailbox” and “mbx” in the alias field.
-X | In the Display name field this position will use a “ “ to delaminate the different positions.>/br>
+X | In the Display name field this position will use a “ “ to delaminate the different positions.
 In the Alias name field this position will use a “.” to delaminate the different positions.
-X-X | Object Name.  This position should be the department name, abbreviation or friendly name of the distribution list. e.g. “IT Network Admins”, “IT” “ISO”, “IT HelpDesk”, “IT System Admins”.  Each Object name should begin with the Department abbreviation when applicable. e.g “IT”, “HR”, “FIN” or contain a friendly generic name, such as:</br> 
-In the Display name field a “ “ will be used between words.</br>
+X-X | Object Name.  This position should be the department name, abbreviation or friendly name of the distribution list. e.g. “IT Network Admins”, “IT” “ISO”, “IT HelpDesk”, “IT System Admins”.  Each Object name should begin with the Department abbreviation when applicable. e.g “IT”, “HR”, “FIN” or contain a friendly generic name, such as: 
+In the Display name field a “ “ will be used between words.
 In the Alias name field a “-” will be used between words.
 X | This position will use a “@” to delaminate the start of the email domain.
 X-X | <b>Company Domain Name.</b>  For the purposes of this document “XYZ” will be used.
