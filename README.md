@@ -232,6 +232,87 @@ X-X | <b>Account Classification.</b>  These three characters will be used to ind
 X-X | <b>Unique Identifier.</b>  This is an optional field and is only used if two or more people have the same first initial and last name.</br>
 01-99 - Second and subsequent accounts
 
-3. Examples of standard user account naming breakdown.  Unique first initial and last name.
+Examples of standard employee user account
 
 ![alt text](https://github.com/defendthehoneypot/NamingConvention/blob/master/images/naming-convention-useraccount-employee.png "naming-convention-useraccount-employee")
+
+Examples of second standard employee user account for users with the same name
+
+![alt text](https://github.com/defendthehoneypot/NamingConvention/blob/master/images/naming-convention-useraccount-employee01.png "naming-convention-useraccount-employee01")
+
+Examples of third standard employee user account for users with the same name
+
+![alt text](https://github.com/defendthehoneypot/NamingConvention/blob/master/images/naming-convention-useraccount-employee02.png "naming-convention-useraccount-employee02")
+
+## Section 13 – User account email address naming convention:
+
+1. Objects in this classification include any standard user email accounts.
+2. Objects in this classification will be named using the following breakdown.
+
+| Position             | Description                                                                                                 |
+| -------------------- | ----------------------------------------------------------------------------------------------------------- |
+1-X | <b>First Name.</b>  This position should be the first name.
+X | This position will use a “.” to delaminate the different positions.
+X | <b>Middle Initial.</b>  This positions should be the middle initial.  (If no middle initial just place a single “.” Between first and last 
+X | This position will use a “.” to delaminate the different positions.
+X-X | <b>Last Name.</b>  This position should be the last name.
+X | This position will use a “.” to delaminate the different positions.
+X-X | <b>Account Classification.</b>  These three characters will be used to indicate the user type for purposes of any special restrictions that might need to be applied.</br>emp - Employee</br>ctr - Contractor</br>ven - Vendor</br>vol - Volunteer</br>int - Intern
+X | This position will use a “@” to delaminate the start of the email domain.
+X-X | <b>Company Domain Name.</b>  For the purposes of this document “XYZ” will be used.
+X | This position will use a “.” to delaminate the different positions.
+X-X | TLD.  This position is the top level domain name of “com”
+
+Example of standard user email account naming breakdown
+
+![alt text](https://github.com/defendthehoneypot/NamingConvention/blob/master/images/naming-convention-useremail.png "naming-convention-useremail")
+
+## Section 14 – Distribution List and Organizational Mailbox naming convention:
+
+1. Objects in this classification include any distribution lists and Organizational Mailboxes.
+2. Objects in this classification will be named using the following breakdown.
+
+| Position             | Description                                                                                                 |
+| -------------------- | ----------------------------------------------------------------------------------------------------------- |
+1-3 | <b>Agency Code.</b>  For the purposes of this document “XYZ” will be used.
+4 | In the Display name field this position will use a “ “ to delaminate the different positions.</br>
+In the Alias name field this position will use a “.” to delaminate the different positions.
+5-X | Object Type.  These positions will indicate whether the object is a Distribution List or Organizational Mailbox.</br>
+Distribution List.  This position will use “list” to indicate the object is a distribution list.</br>
+Organizational Mailbox.  In the Display name field this position will use “Mailbox” and “mbx” in the alias field.
+X | In the Display name field this position will use a “ “ to delaminate the different positions.>/br>
+In the Alias name field this position will use a “.” to delaminate the different positions.
+X-X | Object Name.  This position should be the department name, abbreviation or friendly name of the distribution list. e.g. “IT Network Admins”, “IT” “ISO”, “IT HelpDesk”, “IT System Admins”.  Each Object name should begin with the Department abbreviation when applicable. e.g “IT”, “HR”, “FIN” or contain a friendly generic name, such as:</br> 
+In the Display name field a “ “ will be used between words.</br>
+In the Alias name field a “-” will be used between words.
+X | This position will use a “@” to delaminate the start of the email domain.
+X-X | <b>Company Domain Name.</b>  For the purposes of this document “XYZ” will be used.
+X | This position will use a “.” to delaminate the different positions.
+X-X | TLD.  This position is the top level domain name of “com”
+
+Example of Distribution List
+
+![alt text](https://github.com/defendthehoneypot/NamingConvention/blob/master/images/naming-convention-distributionlist.png "naming-convention-distributionlist")
+
+Example of Organizational Mailbox
+
+![alt text](https://github.com/defendthehoneypot/NamingConvention/blob/master/images/naming-convention-orgmailbox.png "naming-convention-orgmailbox")
+
+## Section 15 – Active Directory Sites and Services names:
+
+1. Objects in this classification include any Active Directory Sites that are created.
+2. Objects in this classification will be named using the following breakdown.
+
+| Position             | Description                                                                                                 |
+| -------------------- | ----------------------------------------------------------------------------------------------------------- |
+1-3 | <b>Entity Code.</b>  For objects under control of the < Entity > domain.  The example code for this document is “XYZ”.
+4-6 | <b>Site Code.</b>  The 3 digit code that identifies the city.  Here is a good reference for CA city name codes: http://www.dot.ca.gov/hq/structur/strmaint/brlog/table_c.htm  This site has some cities with 4 character abbreviations, but in order to maintain the overall consistency with other areas of this document, use only 3 characters.
+7-8 | <b>Site Number.</b>  This will identify any cities that might have multiple sites.</br>01 - First or only site in a city</br>02-99 - Second and subsequent sites in a city
+
+Example of Active Directory Sites and Services naming breakdown for a city with only one site
+
+![alt text](https://github.com/defendthehoneypot/NamingConvention/blob/master/images/naming-convention-adsite.png "naming-convention-adsite")
+
+Example of Active Directory Sites and Services naming breakdown for a city with multiple sites.
+
+![alt text](https://github.com/defendthehoneypot/NamingConvention/blob/master/images/naming-convention-adsite-multiple.png "naming-convention-adsite-multiple")
