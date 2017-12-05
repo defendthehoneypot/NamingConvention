@@ -229,8 +229,7 @@ Example Client Administrator account name
 2-X | <b>Last Name.</b>  These positions should be the last name.
 X | This position will use a “.” To delaminate the different positions.
 X-X | <b>Account Classification.</b>  These three characters will be used to indicate the user type for purposes of any special restrictions that might need to be applied.</br>emp - Employee</br>ctr - Contractor</br>ven - Vendor</br>vol - Volunteer</br>int - Intern
-X-X | <b>Unique Identifier.</b>  This is an optional field and is only used if two or more people have the same first initial and last name.</br>
-01-99 - Second and subsequent accounts
+X-X | <b>Unique Identifier.</b>  This is an optional field and is only used if two or more people have the same first initial and last name.</br>01-99 - Second and subsequent accounts
 
 Examples of standard employee user account
 
