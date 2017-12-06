@@ -344,3 +344,19 @@ domain.com
       - standard
       - admin
       - serviceaccount
+
+Example OU structure
+
+![alt text](/images/naming-convention-activedirectory-ou.png "naming-convention-activedirectory-ou")
+
+Example OU with security group for file share
+
+![alt text](/images/naming-convention-activedirectory-ou-file.png "naming-convention-activedirectory-ou-file")
+
+Example OU with security group for client local administrator group
+
+![alt text](/images/naming-convention-activedirectory-ou-client.png "naming-convention-activedirectory-ou-client")
+
+Example OU with security group for Active Directory delegation
+
+![alt text](/images/naming-convention-activedirectory-ou-activedirectory.png "naming-convention-activedirectory-ou-activedirectory")
