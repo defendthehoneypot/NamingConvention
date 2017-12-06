@@ -317,21 +317,21 @@ Example of Role Based security group used for local administrative access of cli
 
 1. This document is designed to give an example of an OU structure based on resources.  Often times OU structure is designed by physical location but the objects are not treated any different from a security perspective.  My suggestion is to use the following design:
 
-domain.com
-|_orgname
- |_computers
-   |_clients
-   |_servers
- |_contacts
- |_groups
-   |_activedirectory
-   |_file
-   |_clients
-   |_servers
-   |_vmware
-   |_network
-   |_firewall
- |_users
-   |_standard
-   |_admin
-   |_serviceaccount
+domain.com</br>
+|_orgname</br>
+ |_computers</br>
+   |_clients</br>
+   |_servers</br>
+ |_contacts</br>
+ |_groups</br>
+   |_activedirectory</br>
+   |_file</br>
+   |_clients</br>
+   |_servers</br>
+   |_vmware</br>
+   |_network</br>
+   |_firewall</br>
+ |_users</br>
+   |_standard</br>
+   |_admin</br>
+   |_serviceaccount</br>
