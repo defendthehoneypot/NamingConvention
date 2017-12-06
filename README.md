@@ -319,9 +319,9 @@ Example of Role Based security group used for local administrative access of cli
 
 domain.com
   - orgname
-    - computers
-    - clients
-    - servers
+      - computers
+      - clients
+      - servers
 ----contacts
     |_groups
         |_activedirectory
