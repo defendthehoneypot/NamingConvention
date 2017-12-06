@@ -17,6 +17,7 @@
 ##### Section 13 – Distribution List and Organizational Mailbox naming convention:
 ##### Section 14 – Active Directory Sites and Services names:
 ##### Section 15 – ACL, USR and CMP Role Base group examples of implementation:
+##### Section 16 – Active Directory OU Structure based on resources:
 
 ## Section 1 - Naming Standards for Workstations and Laptops:
 
@@ -311,3 +312,26 @@ Example of Role Based security group used for local administrative access of cli
 3. Group Policy Permissions – This would allow the filtering of a GPO that is applied to only a specific group of computers.  The same could be done for user accounts using USR groups.
 
 ![alt text](https://github.com/defendthehoneypot/NamingConvention/blob/master/images/naming-convention-rolebasedgroups-gpoaccess.png "naming-convention-rolebasedgroups-gpoaccess")
+
+## Section 16 – Active Directory OU Structure based on resources:
+
+1. This document is designed to give an example of an OU structure based on resources.  Often times OU structure is designed by physical location but the objects are not treated any different from a security perspective.  My suggestion is to use the following design:
+
+domain.com
+|_orgname
+ |_computers
+   |_clients
+   |_servers
+ |_contacts
+ |_groups
+   |_activedirectory
+   |_file
+   |_clients
+   |_servers
+   |_vmware
+   |_network
+   |_firewall
+ |_users
+   |_standard
+   |_admin
+   |_serviceaccount
