@@ -315,23 +315,32 @@ Example of Role Based security group used for local administrative access of cli
 
 ## Section 16 – Active Directory OU Structure based on resources:
 
-1. This document is designed to give an example of an OU structure based on resources.  Often times OU structure is designed by physical location but the objects are not treated any different from a security perspective.  My suggestion is to use the following design:
+1. This document is designed to give an example of an OU structure based on resources.  Often times OU structure is designed by physical location but the objects are not treated any different from a security perspective.  If the structure is designed using resources as a base, other sub OUs can created under each resource to further break down objects by physical location, department or function type if needed.  This allows applying GPOs at the resource level so all objects have the base GPO, but still allows deviations by applying another GPO to the subordinate OU.
 
 domain.com
-  - orgname
+  - orgname (I prefer to create a root level OU and create resource OUs under it.  This makes for a cleaner interface.  It is also usefull for a large enterprise that has multiple departments, each with their own IT department)
     - computers
       - clients
+        - HR
+        - IT
+        - OPS
       - servers
+        - Application
+        - Database
+        - Web
     - contacts
-    - groups
-      - activedirectory
-      - file
-      - clients
-      - servers
-      - vmware
-      - network
-      - firewall
-   - users
+    - distributionlists
+      - admin
+      - organizational
+    - securitygroups (Separating OUs by function allows easier delegation for different teams and also easier to find when manually searching)
+      - activedirectory (These security groups should be used Active Directory delegations)
+      - file (These security groups are used for NTFS permissions no network shares)
+      - clients (These security groupts are used for local group access of client systems)
+      - servers (These security groupts are used for local group access of server systems)
+      - vmware (These security groups are used for vSphere/VMware delegation/access)
+      - network (These security groups are used for access to network devices, i.e. in conjuction with Radius, TACACS and LDAP)
+      - firewall (These security groups are used for access to firewall devices, i.e. in conjuction with Radius, TACACS and LDAP)
+    - users
       - standard
       - admin
       - serviceaccount
