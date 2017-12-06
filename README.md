@@ -34,7 +34,7 @@
 
 Example Computer Name
 
-![alt text](https://github.com/defendthehoneypot/NamingConvention/blob/master/images/naming-convention-computer.png "naming-convention-computer")
+![alt text](/images/naming-convention-computer.png "naming-convention-computer")
 
 ## Section 2 – Naming Standards for Servers:
 
@@ -51,7 +51,7 @@ Example Computer Name
 
 Example Server Name
 
-![alt text](https://github.com/defendthehoneypot/NamingConvention/blob/master/images/naming-convention-server.png "naming-convention-server")
+![alt text](/images/naming-convention-server.png "naming-convention-server")
 
 ## Section 3 – Naming Standards for Virtual Servers:
 
@@ -68,7 +68,7 @@ Example Server Name
 
 Example Virtual Server Name
 
-![alt text](https://github.com/defendthehoneypot/NamingConvention/blob/master/images/naming-convention-virtualserver.png "naming-convention-virtualserver")
+![alt text](/images/naming-convention-virtualserver.png "naming-convention-virtualserver")
 
 ## Section 4 – Naming Standards for Network Infrastructure:
 
@@ -85,7 +85,7 @@ Example Virtual Server Name
 
 Example Network Infrastructure Name
 
-![alt text](https://github.com/defendthehoneypot/NamingConvention/blob/master/images/naming-convention-networkinfrastructure.png "naming-convention-networkinfrastructure")
+![alt text](/images/naming-convention-networkinfrastructure.png "naming-convention-networkinfrastructure")
 
 ## Section 6 – Naming Standards for Network Peripherals:
 
@@ -102,7 +102,7 @@ Example Network Infrastructure Name
 
 Example Network Peripherals Name
 
-![alt text](https://github.com/defendthehoneypot/NamingConvention/blob/master/images/naming-convention-networkperipherals.png "naming-convention-peripherals")
+![alt text](/images/naming-convention-networkperipherals.png "naming-convention-peripherals")
 
 ## Section 6 – Naming Standards for Service Accounts:
 
@@ -119,7 +119,7 @@ Example Network Peripherals Name
 
 Example Service Account Name
 
-![alt text](https://github.com/defendthehoneypot/NamingConvention/blob/master/images/naming-convention-serviceaccount.png "naming-convention-serviceaccount")
+![alt text](/images/naming-convention-serviceaccount.png "naming-convention-serviceaccount")
 
 ## Section 7 – Naming Standards for Security Groups used as Access Control Lists (ACL):
 
@@ -137,15 +137,15 @@ X-X | Permission.  The permission will identify exact permission that the ACL is
 
 Example Security group that has delegated control of the Laptops OU
 
-![alt text](https://github.com/defendthehoneypot/NamingConvention/blob/master/images/naming-convention-securitygroupsacl-laptops.png "naming-convention-securitygroupsacl-laptops")
+![alt text](/images/naming-convention-securitygroupsacl-laptops.png "naming-convention-securitygroupsacl-laptops")
 
 Example Security group that is added to the built-in Administrators Group of all client systems.
 
-![alt text](https://github.com/defendthehoneypot/NamingConvention/blob/master/images/naming-convention-securitygroupsacl-workstations.png "naming-convention-securitygroupsacl-workstations")
+![alt text](/images/naming-convention-securitygroupsacl-workstations.png "naming-convention-securitygroupsacl-workstations")
 
 Example Security group that is added to the built-in Administrators Group of one client system.
 
-![alt text](https://github.com/defendthehoneypot/NamingConvention/blob/master/images/naming-convention-securitygroupsacl-oneclient.png "naming-convention-securitygroupsacl-oneclient")
+![alt text](/images/naming-convention-securitygroupsacl-oneclient.png "naming-convention-securitygroupsacl-oneclient")
 
 ## Section 8 – Naming Standards for Security Groups that contain users:
 
@@ -162,11 +162,11 @@ Example Security group that is added to the built-in Administrators Group of one
 
 Example of Security group User Job Title
 
-![alt text](https://github.com/defendthehoneypot/NamingConvention/blob/master/images/naming-convention-securitygroupsuser-jobtitle.png "naming-convention-securitygroupsuser-jobtitle")
+![alt text](/images/naming-convention-securitygroupsuser-jobtitle.png "naming-convention-securitygroupsuser-jobtitle")
 
 Example of Security Group User for department “all” groups.  In order to facilitate combining all the users in one department there should be a group that all the job title groups can be combined into.
 
-![alt text](https://github.com/defendthehoneypot/NamingConvention/blob/master/images/naming-convention-securitygroupsuser-departmentall.png "naming-convention-securitygroupsuser-departmentall")
+![alt text](/images/naming-convention-securitygroupsuser-departmentall.png "naming-convention-securitygroupsuser-departmentall")
 
 ## Section 9 – Naming Standards for Security Groups that contain computers:
 
@@ -183,7 +183,7 @@ Example of Security Group User for department “all” groups.  In order to fac
 
 Example of Security Group Computers
 
-![alt text](https://github.com/defendthehoneypot/NamingConvention/blob/master/images/naming-convention-securitygroupscomputer.png "naming-convention-securitygroupscomputer")
+![alt text](/images/naming-convention-securitygroupscomputer.png "naming-convention-securitygroupscomputer")
 
 ## Section 10 – Administrator account naming convention:
 
@@ -199,7 +199,7 @@ X-X | <b>Admin Function.</b>  These last two characters indicate what administra
 
 Example Client Administrator account name
 
-![alt text](https://github.com/defendthehoneypot/NamingConvention/blob/master/images/naming-convention-administrator-client.png "naming-convention-administrator-client")
+![alt text](/images/naming-convention-administrator-client.png "naming-convention-administrator-client")
 
 ## Section 11 – User account naming convention:
 
@@ -216,15 +216,15 @@ X-X | <b>Unique Identifier.</b>  This is an optional field and is only used if t
 
 Examples of standard employee user account
 
-![alt text](https://github.com/defendthehoneypot/NamingConvention/blob/master/images/naming-convention-useraccount-employee.png "naming-convention-useraccount-employee")
+![alt text](/images/naming-convention-useraccount-employee.png "naming-convention-useraccount-employee")
 
 Examples of second standard employee user account for users with the same name
 
-![alt text](https://github.com/defendthehoneypot/NamingConvention/blob/master/images/naming-convention-useraccount-employee01.png "naming-convention-useraccount-employee01")
+![alt text](/images/naming-convention-useraccount-employee01.png "naming-convention-useraccount-employee01")
 
 Examples of third standard employee user account for users with the same name
 
-![alt text](https://github.com/defendthehoneypot/NamingConvention/blob/master/images/naming-convention-useraccount-employee02.png "naming-convention-useraccount-employee02")
+![alt text](/images/naming-convention-useraccount-employee02.png "naming-convention-useraccount-employee02")
 
 ## Section 12 – User account email address naming convention:
 
@@ -247,7 +247,7 @@ X-X | TLD.  This position is the top level domain name of “com”
 
 Example of standard user email account naming breakdown
 
-![alt text](https://github.com/defendthehoneypot/NamingConvention/blob/master/images/naming-convention-useremail.png "naming-convention-useremail")
+![alt text](/images/naming-convention-useremail.png "naming-convention-useremail")
 
 ## Section 13 – Distribution List and Organizational Mailbox naming convention:
 
@@ -268,11 +268,11 @@ X-X | TLD.  This position is the top level domain name of “com”
 
 Example of Distribution List
 
-![alt text](https://github.com/defendthehoneypot/NamingConvention/blob/master/images/naming-convention-distributionlist.png "naming-convention-distributionlist")
+![alt text](/images/naming-convention-distributionlist.png "naming-convention-distributionlist")
 
 Example of Organizational Mailbox
 
-![alt text](https://github.com/defendthehoneypot/NamingConvention/blob/master/images/naming-convention-orgmailbox.png "naming-convention-orgmailbox")
+![alt text](/images/naming-convention-orgmailbox.png "naming-convention-orgmailbox")
 
 ## Section 14 – Active Directory Sites and Services names:
 
@@ -287,11 +287,11 @@ Example of Organizational Mailbox
 
 Example of Active Directory Sites and Services naming breakdown for a city with only one site
 
-![alt text](https://github.com/defendthehoneypot/NamingConvention/blob/master/images/naming-convention-adsite.png "naming-convention-adsite")
+![alt text](/images/naming-convention-adsite.png "naming-convention-adsite")
 
 Example of Active Directory Sites and Services naming breakdown for a city with multiple sites.
 
-![alt text](https://github.com/defendthehoneypot/NamingConvention/blob/master/images/naming-convention-adsite-multiple.png "naming-convention-adsite-multiple")
+![alt text](/images/naming-convention-adsite-multiple.png "naming-convention-adsite-multiple")
 
 ## Section 15 – ACL, USR and CMP group examples of implementation:
 
@@ -301,13 +301,13 @@ This section is designed to provide an example for how to implement role based a
 
 Example of Role Based security groups used on a file server
 
-![alt text](https://github.com/defendthehoneypot/NamingConvention/blob/master/images/naming-convention-rolebasedgroups-fileshare.png "naming-convention-rolebasedgroups-fileshare")
+![alt text](/images/naming-convention-rolebasedgroups-fileshare.png "naming-convention-rolebasedgroups-fileshare")
 
 2. Workstation Built-in Administrators group – The XYZACL_Workstation_LocalAdmins is added to the built-in Administrators group of every client using Group Policy Preferences (GPP), with the XYZUSR_ groupname, for the Help Desk Administrator accounts, nested inside.
 
 Example of Role Based security group used for local administrative access of clients
 
-![alt text](https://github.com/defendthehoneypot/NamingConvention/blob/master/images/naming-convention-rolebasedgroups-localadmin.png "naming-convention-rolebasedgroups-localadmin")
+![alt text](/images/naming-convention-rolebasedgroups-localadmin.png "naming-convention-rolebasedgroups-localadmin")
 
 3. Group Policy Permissions – This would allow the filtering of a GPO that is applied to only a specific group of computers.  The same could be done for user accounts using USR groups.
 
