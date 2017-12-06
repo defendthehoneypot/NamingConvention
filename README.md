@@ -311,7 +311,7 @@ Example of Role Based security group used for local administrative access of cli
 
 3. Group Policy Permissions – This would allow the filtering of a GPO that is applied to only a specific group of computers.  The same could be done for user accounts using USR groups.
 
-![alt text](https://github.com/defendthehoneypot/NamingConvention/blob/master/images/naming-convention-rolebasedgroups-gpoaccess.png "naming-convention-rolebasedgroups-gpoaccess")
+![alt text](/images/naming-convention-rolebasedgroups-gpoaccess.png "naming-convention-rolebasedgroups-gpoaccess")
 
 ## Section 16 – Active Directory OU Structure based on resources:
 
