@@ -11,12 +11,12 @@
 ##### Section 7 – Naming Standards for Security Groups used as Access Control Lists (ACL):
 ##### Section 8 – Naming Standards for Security Groups that contain users:
 ##### Section 9 – Naming Standards for Security Groups that contain computers:
-##### Section 10 – ACL, USR and CMP group examples of implementation:
-##### Section 11 – Administrator account naming convention:
-##### Section 12 – User account naming convention:
-##### Section 13 – User account email address naming convention:
-##### Section 14 – Distribution List and Organizational Mailbox naming convention:
-##### Section 15 – Active Directory Sites and Services names:
+##### Section 10 – Administrator account naming convention:
+##### Section 11 – User account naming convention:
+##### Section 12 – User account email address naming convention:
+##### Section 13 – Distribution List and Organizational Mailbox naming convention:
+##### Section 14 – Active Directory Sites and Services names:
+##### Section 15 – ACL, USR and CMP Role Base group examples of implementation:
 
 ## Section 1 - Naming Standards for Workstations and Laptops:
 
@@ -184,25 +184,7 @@ Example of Security Group Computers
 
 ![alt text](https://github.com/defendthehoneypot/NamingConvention/blob/master/images/naming-convention-securitygroupscomputer.png "naming-convention-securitygroupscomputer")
 
-## Section 10 – ACL, USR and CMP group examples of implementation:
-
-This section is designed to provide an example for how to implement role based access.  It can be used for both user and administrator delegation.  Depending on the size of the organization, it could be very manpower intensive to implement, but provides a lot of value in the end.  For the job title 
-
-1. File Share permissions – The XYZACL_ group is applied as NTFS permissions on a shared folder for a department, with the XYZUSR_ groups nested inside.
-
-Example of Role Based security groups used on a file server
-
-![alt text](https://github.com/defendthehoneypot/NamingConvention/blob/master/images/naming-convention-rolebasedgroups-fileshare.png "naming-convention-rolebasedgroups-fileshare")
-
-2. Workstation Built-in Administrators group – The XYZACL_Workstation_LocalAdmins is added to the built-in Administrators group of every client using Group Policy Preferences (GPP), with the XYZUSR_ groupname, for the Help Desk Administrator accounts, nested inside.
-
-Example of Role Based security group used for local administrative access of clients
-
-![alt text](https://github.com/defendthehoneypot/NamingConvention/blob/master/images/naming-convention-rolebasedgroups-localadmin.png "naming-convention-rolebasedgroups-localadmin")
-
-3. Group Policy Permissions – This would allow the filtering of a test GPO that is applied to only a specific group of computers.  The same could be done for user accounts using USR groups.
-
-## Section 11 – Administrator account naming convention:
+## Section 10 – Administrator account naming convention:
 
 1. Objects in this classification include any domain accounts that are used in an administrative capacity.
 2. Objects in this classification will be named using the following breakdown.
@@ -218,7 +200,7 @@ Example Client Administrator account name
 
 ![alt text](https://github.com/defendthehoneypot/NamingConvention/blob/master/images/naming-convention-administrator-client.png "naming-convention-administrator-client")
 
-## Section 12 – User account naming convention:
+## Section 11 – User account naming convention:
 
 1. Objects in this classification include any standard user accounts.
 2. Objects in this classification will be named using the following breakdown.
@@ -243,7 +225,7 @@ Examples of third standard employee user account for users with the same name
 
 ![alt text](https://github.com/defendthehoneypot/NamingConvention/blob/master/images/naming-convention-useraccount-employee02.png "naming-convention-useraccount-employee02")
 
-## Section 13 – User account email address naming convention:
+## Section 12 – User account email address naming convention:
 
 1. Objects in this classification include any standard user email accounts.
 2. Objects in this classification will be named using the following breakdown.
@@ -266,7 +248,7 @@ Example of standard user email account naming breakdown
 
 ![alt text](https://github.com/defendthehoneypot/NamingConvention/blob/master/images/naming-convention-useremail.png "naming-convention-useremail")
 
-## Section 14 – Distribution List and Organizational Mailbox naming convention:
+## Section 13 – Distribution List and Organizational Mailbox naming convention:
 
 1. Objects in this classification include any distribution lists and Organizational Mailboxes.
 2. Objects in this classification will be named using the following breakdown.
@@ -291,7 +273,7 @@ Example of Organizational Mailbox
 
 ![alt text](https://github.com/defendthehoneypot/NamingConvention/blob/master/images/naming-convention-orgmailbox.png "naming-convention-orgmailbox")
 
-## Section 15 – Active Directory Sites and Services names:
+## Section 14 – Active Directory Sites and Services names:
 
 1. Objects in this classification include any Active Directory Sites that are created.
 2. Objects in this classification will be named using the following breakdown.
@@ -309,3 +291,23 @@ Example of Active Directory Sites and Services naming breakdown for a city with 
 Example of Active Directory Sites and Services naming breakdown for a city with multiple sites.
 
 ![alt text](https://github.com/defendthehoneypot/NamingConvention/blob/master/images/naming-convention-adsite-multiple.png "naming-convention-adsite-multiple")
+
+## Section 15 – ACL, USR and CMP group examples of implementation:
+
+This section is designed to provide an example for how to implement role based access.  It can be used for both user and administrator delegation.  Depending on the size of the organization, it could be very manpower intensive to implement, but provides a lot of value in the end.  For the job title 
+
+1. File Share permissions – The XYZACL_ group is applied as NTFS permissions on a shared folder for a department, with the XYZUSR_ groups nested inside.
+
+Example of Role Based security groups used on a file server
+
+![alt text](https://github.com/defendthehoneypot/NamingConvention/blob/master/images/naming-convention-rolebasedgroups-fileshare.png "naming-convention-rolebasedgroups-fileshare")
+
+2. Workstation Built-in Administrators group – The XYZACL_Workstation_LocalAdmins is added to the built-in Administrators group of every client using Group Policy Preferences (GPP), with the XYZUSR_ groupname, for the Help Desk Administrator accounts, nested inside.
+
+Example of Role Based security group used for local administrative access of clients
+
+![alt text](https://github.com/defendthehoneypot/NamingConvention/blob/master/images/naming-convention-rolebasedgroups-localadmin.png "naming-convention-rolebasedgroups-localadmin")
+
+3. Group Policy Permissions – This would allow the filtering of a GPO that is applied to only a specific group of computers.  The same could be done for user accounts using USR groups.
+
+![alt text](https://github.com/defendthehoneypot/NamingConvention/blob/master/images/naming-convention-rolebasedgroups-gpoaccess.png "naming-convention-rolebasedgroups-gpoaccess")
