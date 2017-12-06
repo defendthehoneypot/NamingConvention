@@ -319,19 +319,19 @@ Example of Role Based security group used for local administrative access of cli
 
 domain.com
   - orgname
-      - computers
-        - clients
-        - servers
-----contacts
-    |_groups
-        |_activedirectory
-        |_file
-        |_clients
-        |_servers
-        |_vmware
-        |_network
-        |_firewall
-    |_users
-        |_standard</br>
-        |_admin</br>
-        |_serviceaccount</br>
+    - computers
+      - clients
+      - servers
+    - contacts
+    - groups
+      - activedirectory
+      - file
+      - clients
+      - servers
+      - vmware
+      - network
+      - firewall
+   - users
+      - standard
+      - admin
+      - serviceaccount
