@@ -112,9 +112,9 @@ Example Network Peripherals Name
 | Position             | Description                                                                                                 |
 | -------------------- | ----------------------------------------------------------------------------------------------------------- |
 1-3 | <b>Entity Code.</b>  For objects under control of the <Entity Name> Domain, the example code for this document is “XYZ”.
-4 | This position will use a “.” to delaminate the different positions.
+4 | This position will use a “.” to delimit the different positions.
 5-11 | <b>Service Name.</b>  This will generally be a friendly name to identify what the service account is used for.
-12 | This position will use a “.” to delaminate the different positions.
+12 | This position will use a “.” to delimit the different positions.
 13-15 | <b>Account Type.</b>  The 3 digit code will identify the Active Directory accounts use.  The authorized options in this category are:</br>SVC - Service Account</br>TSK - Scheduled Task
 
 Example Service Account Name
@@ -129,9 +129,9 @@ Example Service Account Name
 | Position             | Description                                                                                                 |
 | -------------------- | ----------------------------------------------------------------------------------------------------------- |
 1-6 | <b>Security Group Type.</b>  For objects under control of the < Entity Code Security Group Type >, the example code for this document is “XYZACL”.
-7 | This position will use a “_” to delaminate the different positions.
+7 | This position will use a “_” to delimit the different positions.
 8-X | <b>Object Identifier.</b>  This will generally be a friendly name to identify what the object is used for.  Try to make the Object Identifier as descriptive as possible and unique for each object you might apply permissions to.</br>AD - Active Directory Delegation of OU</br>GPO - Group Policy Object e.g. Security Filtering of GPO</br>File - Network File Server Shared Folder</br>Workstation - Local Groups of Workstation e.g. Built-in Administrators Group (Workstation or Laptop)</br>Network - Network device access. e.g. router and switch</br>Server - Local Groups of Server e.g. Built-in Administrators Group</br>SPSite - Sharepoint Site</br>SPList - Sharepoint List</br>SPLibrary - Sharepoint Document Repository</br>VMWare - VMWare permission delegation
-X-X | This position will use a “_” to delaminate the different positions
+X-X | This position will use a “_” to delimit the different positions
 X-X | <b>Object Name.</b>  This will be the friendly name of the object.  e.g. OU Name, GPO Name, Folder Name.  This field is not required if the object is being applied to all objects (for example: XYZACL_Workstation_LocalAdmins ).  Additionally, an Object Name would be necessary if the group is being applied to only one system, (for example: XYZACL_Workstation_XYZNBSAC12345_LocalAdmins ).
 X-X | Permission.  The permission will identify exact permission that the ACL is used (e.g. FullControl, Modify, LocalAdmins ).  Try to make the permission as descriptive as possible.
 
@@ -155,9 +155,9 @@ Example Security group that is added to the built-in Administrators Group of one
 | Position             | Description                                                                                                 |
 | -------------------- | ----------------------------------------------------------------------------------------------------------- |
 1-6 | <b>Security Group Type.</b>  For objects under control of the < Entity > domain.  The example code for this document is “XYZUSR”.
-7 | This position will use a “_” to delaminate the different positions.
+7 | This position will use a “_” to delimit the different positions.
 8-13 | Department/Team.  This is the six digit code for the department and team.  There is no set standard, each Entity will have to derive their own set of abbreviations.  The first three digits should indicate the Department and the last three digits would be the sub team with-in the department, if it exists.  Below are some examples.</br>TECSVC - Technical Services</br>HRSBEN - Human Resources Benefits Section</br>EXECUT - Executive Suite. E.g. CEO, CIO</br>BRDDIR - Board of Directors
-14 | This position will use a “_” to delaminate the different positions.
+14 | This position will use a “_” to delimit the different positions.
 15-X | <b>Job Title.</b>  This will be the friendly job title of the employee.  It should be based off the Human Resources position title document.
 
 Example of Security group User Job Title
@@ -176,9 +176,9 @@ Example of Security Group User for department “all” groups.  In order to fac
 | Position             | Description                                                                                                 |
 | -------------------- | ----------------------------------------------------------------------------------------------------------- |
 1-6 | <b>Security Group Type.</b>  For objects under control of the < Entity > domain. The example code for this document is “XYZCMP”.
-7 | This position will use a “_” to delaminate the different positions.
+7 | This position will use a “_” to delimit the different positions.
 8-13 | Department/Team.  This is the six digit code for the department and team.  There is no set standard, each Entity will have to derive their own set of abbreviations.  The first three digits should indicate the Department and the last three digits would be the sub team with-in the department, if it exists.  Below are some examples.</br>TECSVC - Technical Services</br>HUMRES - Human Resources</br>EXECUT - Executive Suite. e.g. CEO, CIO</br>BRDDIR - Board of Directors
-14 | This position will use a “_” to delaminate the different positions.
+14 | This position will use a “_” to delimit the different positions.
 15-X | <b>Group Designation.</b>  This will be the friendly group name.  e.g. “All” or “Test”.
 
 Example of Security Group Computers
@@ -194,7 +194,7 @@ Example of Security Group Computers
 | -------------------- | ----------------------------------------------------------------------------------------------------------- |
 1 | <b>First Initial.</b>  This position should be the first name initial.
 2-X | <b>Last Name.</b>  These positions should be the last name.
-X | This position will use a “.” to delaminate the different positions
+X | This position will use a “.” to delimit the different positions
 X-X | <b>Admin Function.</b>  These last two characters indicate what administrative function the account is used for.</br>wk - Workstation Administrator</br>sv - Server Administrator</br>dc - Domain Administrator</br>nd - Network Administrator e.g. router/switch account</br>admin - Security appliance Administrator
 
 Example Client Administrator account name
@@ -210,7 +210,7 @@ Example Client Administrator account name
 | -------------------- | ----------------------------------------------------------------------------------------------------------- |
 1 | <b>First Initial.</b>  This position should be the first name initial.
 2-X | <b>Last Name.</b>  These positions should be the last name.
-X | This position will use a “.” To delaminate the different positions.
+X | This position will use a “.” To delimit the different positions.
 X-X | <b>Account Classification.</b>  These three characters will be used to indicate the user type for purposes of any special restrictions that might need to be applied.</br>emp - Employee</br>ctr - Contractor</br>ven - Vendor</br>vol - Volunteer</br>int - Intern
 X-X | <b>Unique Identifier.</b>  This is an optional field and is only used if two or more people have the same first initial and last name.</br>01-99 - Second and subsequent accounts
 
@@ -234,15 +234,15 @@ Examples of third standard employee user account for users with the same name
 | Position             | Description                                                                                                 |
 | -------------------- | ----------------------------------------------------------------------------------------------------------- |
 1-X | <b>First Name.</b>  This position should be the first name.
-X | This position will use a “.” to delaminate the different positions.
+X | This position will use a “.” to delimit the different positions.
 X | <b>Middle Initial.</b>  This positions should be the middle initial.  (If no middle initial just place a single “.” Between first and last 
-X | This position will use a “.” to delaminate the different positions.
+X | This position will use a “.” to delimit the different positions.
 X-X | <b>Last Name.</b>  This position should be the last name.
-X | This position will use a “.” to delaminate the different positions.
+X | This position will use a “.” to delimit the different positions.
 X-X | <b>Account Classification.</b>  These three characters will be used to indicate the user type for purposes of any special restrictions that might need to be applied.</br>emp - Employee</br>ctr - Contractor</br>ven - Vendor</br>vol - Volunteer</br>int - Intern
-X | This position will use a “@” to delaminate the start of the email domain.
+X | This position will use a “@” to delimit the start of the email domain.
 X-X | <b>Company Domain Name.</b>  For the purposes of this document “XYZ” will be used.
-X | This position will use a “.” to delaminate the different positions.
+X | This position will use a “.” to delimit the different positions.
 X-X | TLD.  This position is the top level domain name of “com”
 
 Example of standard user email account naming breakdown
@@ -257,13 +257,13 @@ Example of standard user email account naming breakdown
 | Position             | Description                                                                                                 |
 | -------------------- | ----------------------------------------------------------------------------------------------------------- |
 1-3 | <b>Agency Code.</b>  For the purposes of this document “XYZ” will be used.
-4 | In the Display name field this position will use a “ “ to delaminate the different positions.  In the Alias name field this position will use a “.” to delaminate the different positions.
+4 | In the Display name field this position will use a “ “ to delimit the different positions.  In the Alias name field this position will use a “.” to delimit the different positions.
 5-X | Object Type.  These positions will indicate whether the object is a Distribution List or Organizational Mailbox.</br>Distribution List.  This position will use “list” to indicate the object is a distribution list.</br>Organizational Mailbox.  In the Display name field this position will use “Mailbox” and “mbx” in the alias field.
-X | In the Display name field this position will use a “ “ to delaminate the different positions.</br>In the Alias name field this position will use a “.” to delaminate the different positions.
+X | In the Display name field this position will use a “ “ to delimit the different positions.</br>In the Alias name field this position will use a “.” to delimit the different positions.
 X-X | Object Name.  This position should be the department name, abbreviation or friendly name of the distribution list. e.g. “IT Network Admins”, “IT” “ISO”, “IT HelpDesk”, “IT System Admins”.  Each Object name should begin with the Department abbreviation when applicable. e.g “IT”, “HR”, “FIN” or contain a friendly generic name, such as:</br>In the Display name field a “ “ will be used between words.</br>In the Alias name field a “-” will be used between words.
-X | This position will use a “@” to delaminate the start of the email domain.
+X | This position will use a “@” to delimit the start of the email domain.
 X-X | <b>Company Domain Name.</b>  For the purposes of this document “XYZ” will be used.
-X | This position will use a “.” to delaminate the different positions.
+X | This position will use a “.” to delimit the different positions.
 X-X | TLD.  This position is the top level domain name of “com”
 
 Example of Distribution List
