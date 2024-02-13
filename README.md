@@ -87,7 +87,7 @@ Example Network Infrastructure Name
 
 ![alt text](/images/naming-convention-networkinfrastructure.png "naming-convention-networkinfrastructure")
 
-## Section 6 – Naming Standards for Network Peripherals:
+## Section 5 – Naming Standards for Network Peripherals:
 
 1. Objects in this classification include network devices, such as printers.
 2. Objects in this classification will be named using the following breakdown.
